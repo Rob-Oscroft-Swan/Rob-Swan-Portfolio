@@ -65,6 +65,6 @@ topButton.addEventListener("click", () => {
 });
 
 document.querySelector(".cta").addEventListener("click", function () {
-  var button = document.querySelector(".cta"); // Select the button element
-  button.innerText = "robswan41@gmail.com"; // Set the new text for the button
+  var button = document.querySelector(".cta");
+  button.innerText = "robswan41@gmail.com";
 });
