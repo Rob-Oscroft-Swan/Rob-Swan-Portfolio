@@ -1,60 +1,3 @@
-"use strict";
-
-let secretNumber = Math.trunc(Math.random() * 20) + 1;
-let score = 20;
-let highscore = 0;
-
-const displayMessage = function (message) {
-  document.querySelector(".message").textContent = message;
-};
-
-document.querySelector(".check").addEventListener("click", function () {
-  const guess = Number(document.querySelector(".guess").value);
-  console.log(guess, typeof guess);
-
-  // When there is no input
-  if (!guess) {
-    displayMessage("⛔️ No number!");
-
-    // When player wins
-  } else if (guess === secretNumber) {
-    displayMessage("🎉 Correct Number!");
-    document.querySelector(".number").textContent = secretNumber;
-
-    document.querySelector(".GameBody").style.backgroundColor = "#00FF00";
-    document.querySelector(".number").style.width = "30rem";
-
-    if (score > highscore) {
-      highscore = score;
-      document.querySelector(".highscore").textContent = highscore;
-    }
-
-    // When guess is wrong
-  } else if (guess !== secretNumber) {
-    if (score > 1) {
-      displayMessage(guess > secretNumber ? "📈 Too high!" : "📉 Too low!");
-      score--;
-      document.querySelector(".score").textContent = score;
-    } else {
-      displayMessage("💥 You lost the game!");
-      document.querySelector(".score").textContent = 0;
-    }
-  }
-});
-
-document.querySelector(".again").addEventListener("click", function () {
-  score = 20;
-  secretNumber = Math.trunc(Math.random() * 20) + 1;
-
-  displayMessage("Start guessing...");
-  document.querySelector(".score").textContent = score;
-  document.querySelector(".number").textContent = "?";
-  document.querySelector(".guess").value = "";
-
-  document.querySelector(".GameBody").style.backgroundColor = "#222";
-  document.querySelector(".number").style.width = "15rem";
-});
-
 const topButton = document.getElementById("Top_Button");
 
 topButton.addEventListener("click", () => {
@@ -115,3 +58,64 @@ btn.addEventListener("click", function () {
 
   writer.innerHTML = quotes[random].writer;
 });
+
+let weather = {
+  apiKey: "2f7ce8c8ee403f45539962027ccae114",
+  fetchWeather: function (city) {
+    fetch(
+      "https://api.openweathermap.org/data/2.5/weather?q=" +
+        city +
+        "&units=metric&appid=" +
+        this.apiKey
+    )
+      .then((response) => response.json())
+      .then((data) => this.displayWeather(data));
+  },
+  displayWeather: function (data) {
+    const { name } = data;
+    const { icon, description } = data.weather[0];
+    const { temp, humidity } = data.main;
+    const { speed, deg } = data.wind;
+    const roundedTemp = Math.round(temp);
+    const directions = [
+      "Northerly",
+      "North Easterly",
+      "Easterly",
+      "South Easterly",
+      "Southerly",
+      "South Westerly",
+      "Westerly",
+      "North Westerly",
+    ];
+    const directionIndex = Math.floor(((deg + 22.5) % 360) / 45);
+    const direction = directions[directionIndex];
+
+    document.querySelector(".city").innerText = "Weather in " + name;
+    document.querySelector(".icon").src =
+      "https://openweathermap.org/img/wn/" + icon + ".png";
+    document.querySelector(".description").innerText = description;
+    document.querySelector(".temp").innerText = roundedTemp + "°C";
+    document.querySelector(".humidity").innerText =
+      "Humidity: " + humidity + "%";
+    document.querySelector(".wind").innerText =
+      "Wind Speed: " + speed + "km/h   " + direction;
+    document.querySelector(".weather").classList.remove("loading");
+  },
+  search: function () {
+    this.fetchWeather(document.querySelector(".search-bar").value);
+  },
+};
+
+document.querySelector(".search-btn").addEventListener("click", function () {
+  weather.search();
+});
+
+document
+  .querySelector(".search-bar")
+  .addEventListener("keyup", function (event) {
+    if (event.key == "Enter") {
+      weather.search();
+    }
+  });
+
+weather.fetchWeather("Cape Town");
