@@ -1,1 +1,1 @@
-[[redirects]] from = "/public/index.html" to "/src/index.tsx"
+[[redirects]] from = "/public/*" to = "/src/*" status = 200
