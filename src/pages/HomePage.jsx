@@ -1,5 +1,6 @@
 import PageHeader from "../components/PageHeader";
 import WhatsappMessage from "../components/WhatsappMessage";
+import MotivationalQuotes from "../components/MotivationalQuotes";
 
 function HomePage() {
     return (

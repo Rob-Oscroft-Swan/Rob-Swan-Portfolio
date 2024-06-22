@@ -1,10 +1,12 @@
 import header from '../Images/header.jpg';
 import NavBar from './NavBar';
+import MotivationalQuotes from "./MotivationalQuotes";
 
 function PageHeader() {
     return (
         <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
             {/* Header Image */}
+            <MotivationalQuotes />
             <div>
                 <div style={{
                     color: 'white',
