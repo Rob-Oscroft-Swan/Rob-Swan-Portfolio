@@ -7,7 +7,12 @@ function WhatsappMessage() {
 
     function handleRedirectMessage() {
         const url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-        window.location.href = url;
+
+        const random = Math.floor((Math.random(0,100) * 100) );
+        if (random >= 65)
+            window.location.href = url;
+        else
+            window.location.href = waURL;
     }
 
     return (
