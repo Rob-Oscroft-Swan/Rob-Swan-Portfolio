@@ -91,16 +91,16 @@ function MotivationalQuotes() {
                         top: 20, // Align with the button
                         right: 'calc(20px + 3em)', // Position next to the button, considering its size
                         padding: '1em',
-                        backgroundColor: '#000435',
-                        color: 'white',
+                        backgroundColor: '#C3D9E5',
+                        color: '#021626',
                         boxShadow: '0 0 10px rgba(0,0,0,0.1)',
                         zIndex: 1000,
                         borderRadius: '5px',
-                        width: window.innerWidth > 550 ? '50vw' : '70vw'
+                        width: window.innerWidth > 550 ? '20vw' : '70vw'
                     }}
                 >
-                    <p>{quote}</p>
-                    <p style={{fontSize: '1.5em', fontWeight: 'lighter'}}>- {writer}</p>
+                    <p style={{fontFamily: 'Lato', fontWeight: 'lighter', fontSize: '1.25em', textAlign: 'center'}}>{quote}</p>
+                    <p style={{fontSize: '1.5em', fontFamily: 'Nunito', textAlign: 'center'}}>- {writer}</p>
                 </div>
             )}
         </div>

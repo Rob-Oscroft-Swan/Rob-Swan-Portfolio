@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-item {
+  flex: 1;
+  cursor: pointer;
+  text-align: center;
+  background-color: #456685;
+  color: #f1f1f1;
+  padding: 0.5em;
+  margin: 0.5em;
+  font-family: 'Lato', sans-serif; /* Apply Lato font */
+  transition: background-color 0.3s ease;
+  font-weight: lighter;
+}
+
+.nav-item:hover {
+  background-color: rgba(69, 102, 133, 0.6); /* 60% transparency on hover */
+}
+

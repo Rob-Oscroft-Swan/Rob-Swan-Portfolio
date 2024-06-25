@@ -5,66 +5,97 @@ function VisionValue() {
     return (
         <div>
             <PageHeader/>
-            <div style={{padding: '1em'}}>
-                <div style={{fontSize: '2em',  paddingTop: '0.5em', paddingBottom: '0.5em', textDecoration: 'underline'}}>
-                    Vision & Values
-                </div>
-                <div style={{fontSize: '1.5em',  paddingTop: '0.5em', paddingBottom: '0.5em', textDecoration: 'underline'}}>
-                    Vision
-                </div>
-                <div style={{ paddingTop: '0.5em', paddingBottom: '0.5em'}}>
-                    Empowering individuals to realize their fullest potential, cultivating a world where every person
-                    lives with purpose, passion, and confidence.
-                </div>
-                <div style={{fontSize: '1.75em',  paddingTop: '0.5em', textDecoration: 'underline'}}>
-                    Values
-                </div>
-
-                <div style={{
-                    fontSize: '1.5em',
-                    paddingTop: '0.5em',
-                    fontWeight: 'lighter'
-                }}>
-                    Innovation
-                </div>
-                <div style={{ paddingBottom: '0.5em'}}>
-                    I embrace creativity to solve challenges.
+            <div style={{textAlign:"center"}}>
+                <div style={{padding: '1em', backgroundColor: '#446787', color: '#f1f1f1'}}>
+                    <div style={{
+                        fontSize: '1.5em',
+                        paddingTop: '0.5em',
+                        paddingBottom: '0.25em',
+                        fontFamily: 'Montserrat, sans-serif',
+                        fontWeight: 'bold'
+                    }}>
+                        Vision
+                    </div>
+                    <div style={{paddingTop: '0.25em', fontFamily: 'Lato', fontWeight: 'lighter', fontSize: '1.5em'}}>
+                        Empowering individuals to realize their fullest potential, cultivating a world where every
+                        person
+                        lives with purpose, passion, and confidence.
+                    </div>
                 </div>
 
-                <div style={{
-                    fontSize: '1.5em',
-                    paddingTop: '0.5em',
-                    fontWeight: 'lighter'
-                }}>
-                    Sincerity
-                </div>
-                <div style={{ paddingBottom: '0.5em'}}>
-                    I prioritize honesty and genuine interactions.
-                </div>
+                <div style={{padding: '1em', backgroundColor: '#0A425B', color: '#f1f1f1'}}>
+                    <div style={{fontSize: '1.5em', paddingTop: '0.5em', fontFamily: 'Montserrat, sans-serif', fontWeight: 'bold', textAlign: 'center'}}>
+                        Values
+                    </div>
+                    <div style={{display: 'flex', flexDirection: 'row'}}>
+                        <div style={{display: 'flex', flexDirection: 'column', width: '100%'}}>
+                            <div>
+                                <div style={{
+                                    fontSize: '2em',
+                                    paddingTop: '0.5em',
+                                    fontWeight: 'lighter',
+                                    fontFamily: 'Nunito',
+                                    textAlign: 'center'
+                                }}>
+                                    Innovation
+                                </div>
+                                <div style={{paddingBottom: '0.5em', fontFamily: 'Lato', fontWeight: 'lighter', fontSize: '1.5em', textAlign: 'center'}}>
+                                    I embrace creativity to solve challenges.
+                                </div>
+                            </div>
+                            <div>
+                                <div style={{
+                                    fontSize: '2em',
+                                    paddingTop: '0.5em',
+                                    fontWeight: 'lighter',
+                                    fontFamily: 'Nunito',
+                                    textAlign: 'center'
+                                }}>
+                                    Sincerity
+                                </div>
+                                <div style={{paddingBottom: '0.5em', fontFamily: 'Lato', fontWeight: 'lighter', fontSize: '1.5em', textAlign: 'center'}}>
+                                    I prioritize honesty and genuine interactions.
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{display: 'flex', flexDirection: 'column', width: '100%'}}>
+                            <div>
+                                <div style={{
+                                    fontSize: '2em',
+                                    paddingTop: '0.5em',
+                                    fontWeight: 'lighter',
+                                    fontFamily: 'Nunito',
+                                    textAlign: 'center'
+                                }}>
+                                    Autonomy
+                                </div>
+                                <div style={{paddingBottom: '0.5em', fontFamily: 'Lato', fontWeight: 'lighter', fontSize: '1.5em', textAlign: 'center'}}>
+                                    I respect empowering our own journeys.
+                                </div>
 
-                <div style={{
-                    fontSize: '1.5em',
-                    paddingTop: '0.5em',
-                    fontWeight: 'lighter'
-                }}>
-                    Autonomy
-                </div>
-                <div style={{ paddingBottom: '0.5em'}}>
-                    I respect empowering our own journeys.
-                </div>
+                            </div>
+                            <div >
+                                <div style={{
+                                    fontSize: '2em',
+                                    paddingTop: '0.5em',
+                                    fontWeight: 'lighter',
+                                    fontFamily: 'Nunito',
+                                    textAlign: 'center'
+                                }}>
+                                    Empathy
+                                </div>
+                                <div style={{paddingBottom: '0.5em', fontFamily: 'Lato', fontWeight: 'lighter', fontSize: '1.5em', textAlign: 'center'}}>
+                                    I deeply care about other people.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                <div style={{
-                    fontSize: '1.5em',
-                    paddingTop: '0.5em',
-                    fontWeight: 'lighter'
-                }}>
-                    Empathy
-                </div>
-                <div style={{ paddingBottom: '0.5em'}}>
-                    I deeply care about other people.
+
                 </div>
             </div>
-            <WhatsappMessage />
+
+            <WhatsappMessage/>
         </div>
     )
 }

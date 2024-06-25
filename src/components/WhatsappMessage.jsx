@@ -5,10 +5,9 @@ function WhatsappMessage() {
     const message = encodeURIComponent("Hey Rob!\nI want to know more about the Life Coaching you offer.");
     const phoneNumber = '+27826897696';
     const waURL = `https://wa.me/${phoneNumber}?text=${message}`;
-    const url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 
     function handleRedirectMessage() {
-        window.open(url);
+        window.open(waURL);
     }
 
     return (
