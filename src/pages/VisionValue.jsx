@@ -6,7 +6,7 @@ function VisionValue() {
         <div>
             <PageHeader/>
             <div style={{textAlign:"center"}}>
-                <div style={{padding: '1em', backgroundColor: '#446787', color: '#f1f1f1'}}>
+                <div style={{padding: '1.5em', backgroundColor: '#446787', color: '#f1f1f1'}}>
                     <div style={{
                         fontSize: '1.5em',
                         paddingTop: '0.5em',
@@ -23,7 +23,7 @@ function VisionValue() {
                     </div>
                 </div>
 
-                <div style={{padding: '1em', backgroundColor: '#0A425B', color: '#f1f1f1'}}>
+                <div style={{padding: '1.5em', backgroundColor: '#0A425B', color: '#f1f1f1'}}>
                     <div style={{fontSize: '1.5em', paddingTop: '0.5em', fontFamily: 'Montserrat, sans-serif', fontWeight: 'bold', textAlign: 'center'}}>
                         Values
                     </div>

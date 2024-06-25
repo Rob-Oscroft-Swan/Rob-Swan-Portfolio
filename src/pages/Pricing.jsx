@@ -6,10 +6,10 @@ function Pricing() {
         <div>
             <PageHeader />
             <div >
-                <div style={{padding: '1em', backgroundColor: '#446787', color: '#f1f1f1', fontFamily: 'Nunito', fontSize: '1.75em', textAlign: 'center'}}>
+                <div style={{padding: '1.5em', backgroundColor: '#446787', color: '#f1f1f1', fontFamily: 'Nunito', fontSize: '1.75em', textAlign: 'center'}}>
                     Start the journey right here, where you live with purpose, passion and resilience.
                 </div>
-                <div style={{padding: '1em', backgroundColor: '#0A425B', color: '#f1f1f1', textAlign: 'center'}}>
+                <div style={{padding: '1.5em', backgroundColor: '#0A425B', color: '#f1f1f1', textAlign: 'center'}}>
                     <div style={{
                         paddingTop: '0.5em',
                         paddingBottom: '0.5em',

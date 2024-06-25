@@ -6,7 +6,7 @@ function ContactRob() {
         <div>
             <PageHeader />
             <div>
-                <div style={{padding: '1em', backgroundColor: '#446787', color: '#f1f1f1'}}>
+                <div style={{padding: '1.5em', backgroundColor: '#446787', color: '#f1f1f1'}}>
                     <div style={{
                         fontSize: '1.75em',
                         paddingTop: '0.5em',
@@ -35,8 +35,7 @@ function ContactRob() {
                         techniques, and establishing consistent exercise routines. With a background in leadership,
                         project
                         management, and personal development, I bring a holistic approach to coaching, fostering growth
-                        and
-                        resilience.
+                        and resilience.
                     </div>
                     <div style={{paddingTop: '0.5em', paddingBottom: '0.5em', fontFamily: 'Lato', fontWeight: 'lighter', fontSize: '1.25em', textAlign: 'center'}}>
                         Let's work together to unlock your potential and create a more fulfilling, balanced life.
@@ -44,7 +43,7 @@ function ContactRob() {
                         via email or WhatsApp and I will respond to you within 24 hours.
                     </div>
                 </div>
-                <div style={{padding: '1em', backgroundColor: '#0A425B', color: '#f1f1f1', textAlign: 'center'}}>
+                <div style={{padding: '1.5em', backgroundColor: '#0A425B', color: '#f1f1f1', textAlign: 'center'}}>
                     <div style={{
                         fontSize: '1.75em',
                         paddingTop: '0.5em',

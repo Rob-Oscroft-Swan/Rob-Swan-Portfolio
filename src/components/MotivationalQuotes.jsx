@@ -35,6 +35,66 @@ function MotivationalQuotes() {
             quote: `“There are no secrets to success. It is the result of preparation, hard work, and learning from failure."`,
             writer: `Colin Powell`,
         },
+        {
+            quote: '“Most people do not listen with the intent to understand; they listen with the intent to reply.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“In the pursuit of goals, remember the balance ' +
+                'of mission and maintenance. Mission alone ' +
+                'leads to burnout, maintenance alone leads to ' +
+                'stagnation. Discern when to push and when to fix.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“Adaptability is the compass that guides you through uncharted waters. Embrace change,' +
+                'for it\'s the forge where we are molded.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“We often think of choice as a thing. But choice is not a thing. Our options may be things, but a choice is an action.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“Learn how to do less but better, so you can achieve the highest possible return on every precious moment of your life.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“It always seems impossible until it\'s done.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“Be and remain positive. Challenge your will and ego to be and stay positive.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“Ability is what you\'re capable of doing. Motivation determines what you do. Attitude determines how well you do it.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“I love people who make me laugh. I honestly think it\'s the thing I like most, to laugh. It cures a multitude of ills. It\'s probably the most important thing in a person.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“Lose an hour in the morning, and you will spend all day looking for it.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“Success is not built on success. It\'s built on failure. It\'s built on frustration. Sometimes it’s built on catastrophe.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“Let us not look back in anger, nor forward in fear, but around in awareness.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“The greatest gift you can give your family and the world is a healthy you.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“The harder I work, the luckier I get.”',
+            writer: 'Anonymous'
+        }
     ];
     const [quote, setQuote] = useState(quotes[0].quote);
     const [writer, setWriter] = useState(quotes[0].writer);

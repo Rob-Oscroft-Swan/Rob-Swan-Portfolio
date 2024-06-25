@@ -5,7 +5,7 @@ function LifeCoaching() {
     return (
         <div>
             <PageHeader />
-            <div style={{padding: '1em', backgroundColor: '#446787', color: '#f1f1f1', textAlign: 'center'}}>
+            <div style={{padding: '1.5em', backgroundColor: '#446787', color: '#f1f1f1', textAlign: 'center'}}>
                 <div style={{fontSize: '1.75em', paddingTop: '0.5em', paddingBottom: '0.5em', fontFamily: 'Montserrat, sans-serif', fontWeight: 'bold'}}>
                     What is Life Coaching?
                 </div>
