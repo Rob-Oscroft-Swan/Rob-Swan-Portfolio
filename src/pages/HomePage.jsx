@@ -7,13 +7,13 @@ function HomePage() {
         <div >
             <PageHeader />
             <div style={{textAlign: 'center'}}>
-                <div style={{backgroundColor: '#446787', color: '#f1f1f1', padding: '1.5em'}}>
+                <div style={{backgroundColor: '#446787', color: '#f1f1f1', padding: '1.5em',}}>
                     <div style={{
                         fontSize: '1.75em',
                         paddingTop: '0.5em',
                         paddingBottom: '0.5em',
                         fontFamily: 'Montserrat, sans-serif',
-                        fontWeight: 'bold'
+                        fontWeight: 'bold',
                     }}>
                         My Journey
                     </div>

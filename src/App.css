@@ -1,3 +1,11 @@
+.rob-swan-coaching {
+  font-size: 4rem;
+  margin: 3rem 1rem 0rem 1rem;
+  font-family: 'Montserrat, sans-serif';
+  font-weight: bold;
+  color: black; /* Change color here */
+}
+
 .App {
   text-align: center;
 }

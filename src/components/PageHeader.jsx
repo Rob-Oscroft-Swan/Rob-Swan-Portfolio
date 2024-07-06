@@ -16,8 +16,8 @@ function PageHeader() {
                     color: 'white',
                     textAlign: 'center',
                     backgroundImage: `url(${header})`,
-                    width: '100%',
-                    height: '40vh',
+                    width: '100vw',
+                    height: '60vh',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     display: "flex",
@@ -32,22 +32,23 @@ function PageHeader() {
                             flexDirection: 'column',
                             alignItems: 'stretch',
                         }}>
+                            <div style={{paddingTop: '0', paddingBottom: '0'}}>
+                                <p style={{marginBottom: '0', fontSize: '1.2em', fontFamily: 'Nunito, sans-serif', color: '#446787'}}>
+                                    Cultivating Confidence, Focus & Forgiveness for a Fulfilling Life
+                                </p>
+                            </div>
                             <div style={{
                                 display: 'flex',
                                 flexDirection: 'row',
                                 justifyContent: 'center',
                                 alignItems: 'flex-start',
-                                marginBottom: '3.25em'
+                                marginBottom: '0'
                             }}>
-                                <p style={{fontSize: '5em', margin: 0, fontFamily: 'Montserrat, sans-serif', fontWeight: 'bold', color: '#0a425b'}}>
+                                <p className="rob-swan-coaching" style={{fontSize: '4rem', margin: '3rem 1rem 0rem 1rem', fontFamily: 'Montserrat, sans-serif', fontWeight: 'bold', color: '#021626'}}>
                                     ROB SWAN COACHING
                                 </p>
                             </div>
-                            <div style={{paddingLeft: '1.5em', paddingRight: '1.5em'}}>
-                                <p style={{margin: 0, fontSize: '3em', fontFamily: 'Nunito, sans-serif', color: '#446787'}}>
-                                    Cultivating Confidence, Focus & Forgiveness for a Fulfilling Life
-                                </p>
-                            </div>
+                            
                         </div>
                     </div>
 

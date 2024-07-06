@@ -135,7 +135,8 @@ function MotivationalQuotes() {
         <div>
             <div
                 ref={buttonRef}
-                style={{ position: 'fixed', top: 20, right: 20 }}
+                style={{ position: 'fixed', top: 20, right: 20, boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)' 
+                }}
             >
                 <img
                     src={motivation}

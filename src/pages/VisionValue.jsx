@@ -12,7 +12,7 @@ function VisionValue() {
                         paddingTop: '0.5em',
                         paddingBottom: '0.25em',
                         fontFamily: 'Montserrat, sans-serif',
-                        fontWeight: 'bold'
+                        fontWeight: 'bold', 
                     }}>
                         Vision
                     </div>
