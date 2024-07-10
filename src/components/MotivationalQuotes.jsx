@@ -48,7 +48,7 @@ function MotivationalQuotes() {
         },
         {
             quote: '“Adaptability is the compass that guides you through uncharted waters. Embrace change,' +
-                'for it\'s the forge where we are molded.”',
+                'for it\'s the forge where we are molded in this life.”',
             writer: 'Anonymous'
         },
         {
