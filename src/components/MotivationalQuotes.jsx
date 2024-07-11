@@ -62,7 +62,27 @@ function MotivationalQuotes() {
         {
             quote: '“The harder I work, the luckier I get.”',
             writer: 'Anonymous'
-        }
+        },
+        {
+            quote: '“The secret of getting ahead is getting started.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“Problems are not the problem; coping is the problem.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“Trust is built with consistency.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“The thing that is really hard, and really amazing, is giving up on being perfect and beginning the work of becoming yourself.”',
+            writer: 'Anonymous'
+        },
+        {
+            quote: '“Know who others think you are, but never let that define you. In life, you will be celebrated and criticized, trusted and ridiculed - all at once. Embrace the complexity of this journey.”',
+            writer: 'Anonymous'
+        },
     ];
     const [quote, setQuote] = useState(quotes[0].quote);
     const [writer, setWriter] = useState(quotes[0].writer);
