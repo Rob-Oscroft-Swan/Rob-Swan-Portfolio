@@ -23,7 +23,7 @@ function NavBar() {
     };
 
     return (
-        <div style={{ backgroundColor: '#021626', fontFamily: "'Lato', sans-serif", padding: '1em',
+        <div style={{ backgroundColor: '#0A425B', fontFamily: "'Lato', sans-serif", padding: '1em',
         }}>
             {window.innerWidth > 650 ? (
                 <div style={{ display: "flex", flexWrap: 'wrap', justifyContent: 'space-around' }}>
