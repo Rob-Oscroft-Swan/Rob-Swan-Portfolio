@@ -8,23 +8,23 @@ function NavBar() {
     const navItemStyle = {
         padding: '0.5em 1em',
         margin: '0.5em',
-        backgroundColor: '#021626',
+        backgroundColor: '#021626', // Button Color
         borderRadius: '10px',
         cursor: 'pointer',
         transition: 'background-color 0.3s ease',
         flex: '1 1 auto',
         textAlign: 'center',
-        color: '#F1F1F1'
+        color: '#F1F1F1' // Button Font Color
     };
 
     const navItemHoverStyle = {
         ...navItemStyle,
-        backgroundColor: '#0A425B',
+        backgroundColor: 'rgba(2, 22, 38, 0.5)', // Hover Button Color
     };
 
     return (
-        <div style={{ backgroundColor: '#0A425B', fontFamily: "'Lato', sans-serif", padding: '1em',
-        }}>
+        <div style={{ backgroundColor: '#0A425B', fontFamily: "'Lato', sans-serif", padding: '1em', // Nav bar background Color
+        }}> 
             {window.innerWidth > 650 ? (
                 <div style={{ display: "flex", flexWrap: 'wrap', justifyContent: 'space-around' }}>
                     <NavItem onClick={() => nav('/')} tooltip="Learn more about Rob and his journey with helping others" style={navItemStyle} hoverStyle={navItemHoverStyle}>Home Page</NavItem>
