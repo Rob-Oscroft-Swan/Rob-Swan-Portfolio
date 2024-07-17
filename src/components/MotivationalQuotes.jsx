@@ -4,7 +4,7 @@ import motivation from "../Images/creativity.png";
 function MotivationalQuotes() {
     const quotes = [
         {
-            quote: '“Most people do not listen with the intent to understand; they listen with the intent to reply.”',
+            quote: '“Most people do not listen with the intent to understand; they listen with the intent to reply only.”',
             writer: 'Anonymous'
         },
         {
