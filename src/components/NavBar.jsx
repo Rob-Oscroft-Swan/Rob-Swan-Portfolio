@@ -29,7 +29,7 @@ function NavBar() {
                 <div style={{ display: "flex", flexWrap: 'wrap', justifyContent: 'space-around' }}>
                     <NavItem onClick={() => nav('/')} tooltip="Learn more about Rob and his journey with helping others" style={navItemStyle} hoverStyle={navItemHoverStyle}>Home Page</NavItem>
                     <NavItem onClick={() => nav('/vision-value')} tooltip="Learn about Rob's Vision & Values" style={navItemStyle} hoverStyle={navItemHoverStyle}>Vision & Values</NavItem>
-                    <NavItem onClick={() => nav('/about-life-coaching')} tooltip="Find out About Life Coaching" style={navItemStyle} hoverStyle={navItemHoverStyle}>About Life Coaching</NavItem>
+                    <NavItem onClick={() => nav('/about-life-coaching')} tooltip="Find out About Life Coaching" style={navItemStyle} hoverStyle={navItemHoverStyle}>Therapautic Life Coaching</NavItem>
                     <NavItem onClick={() => nav('/pricing')} tooltip="Check the Pricing" style={navItemStyle} hoverStyle={navItemHoverStyle}>Pricing</NavItem>
                     <NavItem onClick={() => nav('/contact')} tooltip="Get in contact with Rob" style={navItemStyle} hoverStyle={navItemHoverStyle}>Contact Rob</NavItem>
                 </div>
